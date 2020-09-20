@@ -14,13 +14,10 @@ int main() {
 
   ReverseArray(arr, n);
   
-  return 0;
-  
-/*
 	for (int i = 0; i < n; i++) {
 		cout << arr[i] << " ";
 	}
-*/
+
 
 }
 /*
