@@ -1,4 +1,5 @@
 #include <iostream>
+
 //#include "hw3.cpp"
 #include "hw3.h"
 
@@ -18,24 +19,34 @@ int main() {
 		cout << arr[i] << " ";
 	}
 
+std::cout << std::endl;
+std::cout << " -------------NEW TEST------------- " << endl;
 
-}
-/*
 //Test HasBalancedParentheses();
- std::string statement1 = "((())())";
- If(HasBalancedParentheses(statement1)){
-   	std::cout << "Is it Ballanced: " << std:endl;
- }
+  std::string statement1 = "((())())";
+  if(HasBalancedParentheses(statement1)){
+      std::cout << "It is Balanced " << endl;
+  }else{
+    std::cout << "It is Not Balanced " << endl;
+  }
+
+std::cout << " -------------NEW TEST------------- " << endl;
 
 // Test InDogish();
- std::string mydogs = "dpoags";
- If(InDogish(mydogs)){
-   	std::cout << "Part of Dogish? " << std:endl;
+  std::string mydogs = "dpoags";
+  if (InDogish(mydogs)){
+   	std::cout << "Part of Dogish? " << endl;
+    std::cout << "It is dogish" << endl;
+  }else{
+    std::cout << "It is not dogish" << endl;
  }
+}
+
+
+
 
  // Test bool InXish(sting mytext, sting myword);
 
-*/
 
 
 
