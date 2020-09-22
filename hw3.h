@@ -6,5 +6,6 @@ using namespace std;
 void ReverseArray(int arr[], int length);
 bool HasBalancedParentheses(string Parentheses);
 bool InDogish (string mydogs);
+bool InXish (string input, string word);
 
 #endif
